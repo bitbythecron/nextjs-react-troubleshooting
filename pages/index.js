@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHatChef } from '@fortawesome/free-solid-svg-icons'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -8,7 +10,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My app!
+          Hello <FontAwesomeIcon icon={faHatChef} /> My app!
         </h1>
       </main>
 
